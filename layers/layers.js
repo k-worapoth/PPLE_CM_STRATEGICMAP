@@ -156,10 +156,34 @@ var lyr_bannerMP2026_9 = new ol.layer.Vector({
                 interactive: true,
                 title: '<img src="styles/legend/bannerMP2026_9.png" /> bannerMP2026'
             });
+var group_electionresultMP2026 = new ol.layer.Group({
+                                layers: [],
+                                fold: 'open',
+                                title: 'electionresultMP2026'});
+var group_polictcalmap_forcollectingscore = new ol.layer.Group({
+                                layers: [],
+                                fold: 'open',
+                                title: 'polictcalmap_forcollectingscore'});
 var group_EVENT = new ol.layer.Group({
                                 layers: [lyr_postalfinal_8,lyr_bannerMP2026_9,],
                                 fold: 'open',
                                 title: 'EVENT'});
+var group_ELECTIONRESULT = new ol.layer.Group({
+                                layers: [],
+                                fold: 'open',
+                                title: 'ELECTIONRESULT'});
+var group_CMMC2025 = new ol.layer.Group({
+                                layers: [],
+                                fold: 'close',
+                                title: 'CMMC2025'});
+var group_banner2025 = new ol.layer.Group({
+                                layers: [],
+                                fold: 'close',
+                                title: 'banner2025'});
+var group_banner2026 = new ol.layer.Group({
+                                layers: [],
+                                fold: 'close',
+                                title: 'banner2026'});
 var group_POLITICALMAP = new ol.layer.Group({
                                 layers: [lyr_tambon_CMMC_1,lyr_moo_faham_2,lyr_moo_tambon_changpueak_3,lyr_moo_suthep_4,lyr_moo_sanpheseau_5,lyr_moo_padet_6,lyr_moo_maehia_7,],
                                 fold: 'open',
